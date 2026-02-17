@@ -67,8 +67,7 @@
               "RelativeToolTip": "VehicleInventory.Application\\DTOs\\JPCreateVehicleDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:24:48.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:24:48.782Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "VehicleInventory.Domain\\Entities\\JPVehicle.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAkwAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:17:22.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:17:22.453Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "VehicleInventory.Domain\\Exceptions\\JPDomainException .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:15:50.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:15:50.192Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "VehicleInventory.Domain\\Enums\\JPVehicleStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:14:16.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:14:16.959Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "VehicleInventory.Infrastructure\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:11:07.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:11:07.977Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "VehicleInventory.Application\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:10:43.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:10:43.529Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "VehicleInventory.Domain\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:10:24.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:10:24.585Z"
             }
           ]
         }
