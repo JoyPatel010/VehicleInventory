@@ -1,0 +1,12 @@
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\bin\Debug\net8.0\VehicleInventory.Domain.deps.json
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\bin\Debug\net8.0\VehicleInventory.Domain.dll
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\bin\Debug\net8.0\VehicleInventory.Domain.pdb
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\obj\Debug\net8.0\VehicleInventory.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\obj\Debug\net8.0\VehicleInventory.Domain.AssemblyInfoInputs.cache
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\obj\Debug\net8.0\VehicleInventory.Domain.AssemblyInfo.cs
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\obj\Debug\net8.0\VehicleInventory.Domain.csproj.CoreCompileInputs.cache
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\obj\Debug\net8.0\VehicleInventory.Domain.sourcelink.json
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\obj\Debug\net8.0\VehicleInventory.Domain.dll
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\obj\Debug\net8.0\refint\VehicleInventory.Domain.dll
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\obj\Debug\net8.0\VehicleInventory.Domain.pdb
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Domain\obj\Debug\net8.0\ref\VehicleInventory.Domain.dll

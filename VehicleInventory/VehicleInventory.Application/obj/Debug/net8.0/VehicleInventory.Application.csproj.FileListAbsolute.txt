@@ -1,0 +1,16 @@
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\bin\Debug\net8.0\VehicleInventory.Application.deps.json
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\bin\Debug\net8.0\VehicleInventory.Application.dll
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\bin\Debug\net8.0\VehicleInventory.Application.pdb
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\bin\Debug\net8.0\VehicleInventory.Domain.dll
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\bin\Debug\net8.0\VehicleInventory.Domain.pdb
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\VehicleInventory.Application.csproj.AssemblyReference.cache
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\VehicleInventory.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\VehicleInventory.Application.AssemblyInfoInputs.cache
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\VehicleInventory.Application.AssemblyInfo.cs
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\VehicleInventory.Application.csproj.CoreCompileInputs.cache
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\VehicleInventory.Application.sourcelink.json
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\VehicleI.EBCD2048.Up2Date
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\VehicleInventory.Application.dll
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\refint\VehicleInventory.Application.dll
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\VehicleInventory.Application.pdb
+C:\Users\patel\OneDrive\Desktop\VehicleInventory\VehicleInventory\VehicleInventory.Application\obj\Debug\net8.0\ref\VehicleInventory.Application.dll
