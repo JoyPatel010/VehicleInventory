@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44A94E86-99DF-42F7-B040-343583654E09}|VehicleInventory.Infrastructure\\VehicleInventory.Infrastructure.csproj|c:\\users\\patel\\onedrive\\desktop\\vehicleinventory\\vehicleinventory\\vehicleinventory.infrastructure\\data\\jpinventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44A94E86-99DF-42F7-B040-343583654E09}|VehicleInventory.Infrastructure\\VehicleInventory.Infrastructure.csproj|solutionrelative:vehicleinventory.infrastructure\\data\\jpinventorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6375078E-88F7-4648-B23A-535D8FD8F388}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|c:\\users\\patel\\onedrive\\desktop\\vehicleinventory\\vehicleinventory\\vehicleinventory.domain\\exceptions\\jpdomainexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6375078E-88F7-4648-B23A-535D8FD8F388}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|solutionrelative:vehicleinventory.domain\\exceptions\\jpdomainexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44A94E86-99DF-42F7-B040-343583654E09}|VehicleInventory.Infrastructure\\VehicleInventory.Infrastructure.csproj|c:\\users\\patel\\onedrive\\desktop\\vehicleinventory\\vehicleinventory\\vehicleinventory.infrastructure\\migrations\\jpinventorydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,24 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAF0AAAAAAAAAAADwv2YAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-02-17T19:05:23.024Z",
+              "WhenOpened": "2026-02-17T20:18:31.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "JPVehiclesController.cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.WebAPI\\Controllers\\JPVehiclesController.cs",
               "RelativeDocumentMoniker": "VehicleInventory.WebAPI\\Controllers\\JPVehiclesController.cs",
@@ -91,8 +91,7 @@
               "RelativeToolTip": "VehicleInventory.WebAPI\\Controllers\\JPVehiclesController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T03:17:25.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T03:17:25.73Z"
             },
             {
               "$type": "Document",
@@ -108,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "JPVehicleRepository.cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Infrastructure\\Repositories\\JPVehicleRepository.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Repositories\\JPVehicleRepository.cs",
@@ -116,21 +115,19 @@
               "RelativeToolTip": "VehicleInventory.Infrastructure\\Repositories\\JPVehicleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:57:26.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:57:26.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "JPInventoryDbContext.cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Infrastructure\\Data\\JPInventoryDbContext.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Data\\JPInventoryDbContext.cs",
               "ToolTip": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Infrastructure\\Data\\JPInventoryDbContext.cs",
               "RelativeToolTip": "VehicleInventory.Infrastructure\\Data\\JPInventoryDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:52:43.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:52:43.22Z"
             },
             {
               "$type": "Document",
@@ -146,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "JPDomainException .cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Domain\\Exceptions\\JPDomainException .cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Exceptions\\JPDomainException .cs",
@@ -154,12 +151,11 @@
               "RelativeToolTip": "VehicleInventory.Domain\\Exceptions\\JPDomainException .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:15:50.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:15:50.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JPVehicle.cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Domain\\Entities\\JPVehicle.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Entities\\JPVehicle.cs",
@@ -167,12 +163,11 @@
               "RelativeToolTip": "VehicleInventory.Domain\\Entities\\JPVehicle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:17:22.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:17:22.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JPVehicleService.cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Application\\Services\\JPVehicleService.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\Services\\JPVehicleService.cs",
@@ -180,8 +175,7 @@
               "RelativeToolTip": "VehicleInventory.Application\\Services\\JPVehicleService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T18:59:30.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T18:59:30.658Z"
             },
             {
               "$type": "Document",
