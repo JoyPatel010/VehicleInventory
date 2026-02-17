@@ -10,6 +10,7 @@ using VehicleInventory.Domain.Enums;
 
 namespace VehicleInventory.Application.Services
 {
+    //manages use cases for vehicles without including business logic
     public class JPVehicleService
     {
         private readonly JPIVehicleRepository _repository;

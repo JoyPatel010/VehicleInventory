@@ -10,6 +10,7 @@ using VehicleInventory.Infrastructure.Data;
 
 namespace VehicleInventory.Infrastructure.Repositories
 {
+    //implements EF Core persistence for Vehicles
     public class JPVehicleRepository: JPIVehicleRepository
     {
 

@@ -8,6 +8,7 @@ using VehicleInventory.Domain.Exceptions;
 
 namespace VehicleInventory.Domain.Entities
 {
+    //oversees all lifecycle regulations and represents the vehicle aggregate
     public class JPVehicle
     {
 
@@ -37,6 +38,7 @@ namespace VehicleInventory.Domain.Entities
             Status = JPVehicleStatus.Available;
         }
 
+        //Verifies and changes the car's status to rented
         public void MarkRented()
         {
             if (Status == JPVehicleStatus.Rented)
