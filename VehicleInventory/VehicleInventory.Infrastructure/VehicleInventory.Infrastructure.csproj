@@ -16,8 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VehicleInventory.Domain\VehicleInventory.Domain.csproj" />
   </ItemGroup>
 
 </Project>
