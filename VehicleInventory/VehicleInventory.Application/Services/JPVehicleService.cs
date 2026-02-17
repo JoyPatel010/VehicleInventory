@@ -67,8 +67,7 @@ namespace VehicleInventory.Application.Services
             if (vehicle == null)
                 throw new Exception("Vehicle not found.");
 
-            // IMPORTANT:
-            // We call domain methods here — we do NOT change Status directly.
+            
             switch (dto.Status)
             {
                 case JPVehicleStatus.Available:

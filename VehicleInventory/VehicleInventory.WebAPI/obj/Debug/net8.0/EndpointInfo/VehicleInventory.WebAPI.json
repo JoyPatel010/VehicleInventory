@@ -1,0 +1,185 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "VehicleInventory.WebAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/v1/vehicles": {
+      "get": {
+        "tags": [
+          "JPVehicles"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "JPVehicles"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JPCreateVehicleDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JPCreateVehicleDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/JPCreateVehicleDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/vehicles/{id}": {
+      "get": {
+        "tags": [
+          "JPVehicles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "JPVehicles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/vehicles/{id}/status": {
+      "put": {
+        "tags": [
+          "JPVehicles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JPUpdateVehicleStatusDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JPUpdateVehicleStatusDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/JPUpdateVehicleStatusDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "JPCreateVehicleDto": {
+        "required": [
+          "locationId",
+          "vehicleCode",
+          "vehicleType"
+        ],
+        "type": "object",
+        "properties": {
+          "vehicleCode": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "locationId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "vehicleType": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "JPUpdateVehicleStatusDto": {
+        "required": [
+          "status"
+        ],
+        "type": "object",
+        "properties": {
+          "status": {
+            "$ref": "#/components/schemas/JPVehicleStatus"
+          }
+        },
+        "additionalProperties": false
+      },
+      "JPVehicleStatus": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    }
+  }
+}

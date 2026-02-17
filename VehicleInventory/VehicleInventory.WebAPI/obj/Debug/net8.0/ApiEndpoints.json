@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "VehicleInventory.WebAPI.Controllers.JPVehiclesController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/vehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VehicleInventory.WebAPI.Controllers.JPVehiclesController",
+    "Method": "Create",
+    "RelativePath": "api/v1/vehicles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VehicleInventory.Application.DTOs.JPCreateVehicleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VehicleInventory.WebAPI.Controllers.JPVehiclesController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/vehicles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VehicleInventory.WebAPI.Controllers.JPVehiclesController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/vehicles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VehicleInventory.WebAPI.Controllers.JPVehiclesController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/v1/vehicles/{id}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "VehicleInventory.Application.DTOs.JPUpdateVehicleStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
