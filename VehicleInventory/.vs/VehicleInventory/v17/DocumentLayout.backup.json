@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6375078E-88F7-4648-B23A-535D8FD8F388}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|c:\\users\\patel\\onedrive\\desktop\\vehicleinventory\\vehicleinventory\\vehicleinventory.domain\\exceptions\\jpdomainexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6375078E-88F7-4648-B23A-535D8FD8F388}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|solutionrelative:vehicleinventory.domain\\exceptions\\jpdomainexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6375078E-88F7-4648-B23A-535D8FD8F388}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|c:\\users\\patel\\onedrive\\desktop\\vehicleinventory\\vehicleinventory\\vehicleinventory.domain\\enums\\jpvehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6375078E-88F7-4648-B23A-535D8FD8F388}|VehicleInventory.Domain\\VehicleInventory.Domain.csproj|solutionrelative:vehicleinventory.domain\\enums\\jpvehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "JPDomainException .cs",
+              "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Domain\\Exceptions\\JPDomainException .cs",
+              "RelativeDocumentMoniker": "VehicleInventory.Domain\\Exceptions\\JPDomainException .cs",
+              "ToolTip": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Domain\\Exceptions\\JPDomainException .cs",
+              "RelativeToolTip": "VehicleInventory.Domain\\Exceptions\\JPDomainException .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T00:15:50.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "JPVehicleStatus.cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Domain\\Enums\\JPVehicleStatus.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Enums\\JPVehicleStatus.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Infrastructure\\Class1.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "VehicleInventory.Infrastructure\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T00:11:07.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T00:11:07.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Application\\Class1.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Application\\Class1.cs",
@@ -68,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\patel\\OneDrive\\Desktop\\VehicleInventory\\VehicleInventory\\VehicleInventory.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "VehicleInventory.Domain\\Class1.cs",
