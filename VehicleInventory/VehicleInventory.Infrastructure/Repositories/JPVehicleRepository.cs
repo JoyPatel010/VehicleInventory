@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using VehicleInventory.Application.Interfaces;
-using VehicleInventory.Domain.Entities;
+using VehicleInventory.Domain.Aggregates.JPVehicle;
 using VehicleInventory.Infrastructure.Data;
 
 namespace VehicleInventory.Infrastructure.Repositories

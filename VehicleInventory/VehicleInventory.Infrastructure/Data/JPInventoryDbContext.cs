@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using VehicleInventory.Domain.Entities;
+using VehicleInventory.Domain.Aggregates.JPVehicle;
 
 namespace VehicleInventory.Infrastructure.Data
 {
@@ -12,7 +12,7 @@ namespace VehicleInventory.Infrastructure.Data
     {
         public JPInventoryDbContext(DbContextOptions<JPInventoryDbContext> options)
            : base(options)
-        {}
+        {}  
 
         public DbSet<JPVehicle> Vehicles { get; set; }
 

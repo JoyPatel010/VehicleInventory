@@ -5,37 +5,46 @@ using System.Text;
 using System.Threading.Tasks;
 using VehicleInventory.Domain.Enums;
 using VehicleInventory.Domain.Exceptions;
+using VehicleInventory.Domain.ValueObjects;
 
-namespace VehicleInventory.Domain.Entities
+namespace VehicleInventory.Domain.Aggregates.JPVehicle
 {
     //oversees all lifecycle regulations and represents the vehicle aggregate
     public class JPVehicle
     {
 
         public Guid Id { get; private set; }
-        public string VehicleCode { get; private set; }
-        public string LocationId { get; private set; }
-        public string VehicleType { get; private set; }
+        public JPVehicleCode VehicleCode { get; private set; }
+        public JPLocationId LocationId { get; private set; }
+        public JPVehicleTypeId VehicleType { get; private set; }
         public JPVehicleStatus Status { get; private set; }
 
-        private JPVehicle() { }
+        private readonly List<JPVehicleInventory> _inventoryRecords = new();
+        public IReadOnlyCollection<JPVehicleInventory> InventoryRecords => _inventoryRecords.AsReadOnly();
+
+        private JPVehicle() 
+        {
+            VehicleCode = new JPVehicleCode("UNKNOWN");
+            LocationId = new JPLocationId("UNKNOWN");
+            VehicleType = new JPVehicleTypeId("UNKNOWN");
+        }
 
         public JPVehicle(string vehicleCode, string locationId, string vehicleType)
         {
-            if (string.IsNullOrWhiteSpace(vehicleCode))
-                throw new ArgumentException("Vehicle code is required.");
-
-            if (string.IsNullOrWhiteSpace(locationId))
-                throw new ArgumentException("Location is required.");
-
-            if (string.IsNullOrWhiteSpace(vehicleType))
-                throw new ArgumentException("Vehicle type is required.");
+            
+            VehicleCode = new JPVehicleCode(vehicleCode);
+            LocationId = new JPLocationId(locationId);
+            VehicleType = new JPVehicleTypeId(vehicleType);
 
             Id = Guid.NewGuid();
-            VehicleCode = vehicleCode;
-            LocationId = locationId;
-            VehicleType = vehicleType;
             Status = JPVehicleStatus.Available;
+        }
+
+        
+        public void AddInventoryRecord(JPLocationId location, int quantity)
+        {
+            var record = new JPVehicleInventory(Id, location, quantity);
+            _inventoryRecords.Add(record);
         }
 
         //Verifies and changes the car's status to rented

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using VehicleInventory.Domain.Entities;
+using VehicleInventory.Domain.Aggregates.JPVehicle;
 
 namespace VehicleInventory.Application.Interfaces
 {
