@@ -29,12 +29,12 @@ namespace VehicleInventory.Infrastructure.Repositories
 
         public async Task<JPVehicle> GetByIdAsync(Guid id)
         {
-            return await _context.Vehicles.FindAsync(id);
+            return await _context.Vehicles.Include(v => v.InventoryRecords).FirstOrDefaultAsync(v => v.Id == id);
         }
 
         public async Task<List<JPVehicle>> GetAllAsync()
         {
-            return await _context.Vehicles.ToListAsync();
+            return await _context.Vehicles.Include(v => v.InventoryRecords).ToListAsync();
         }
 
         public async Task UpdateAsync(JPVehicle vehicle)
