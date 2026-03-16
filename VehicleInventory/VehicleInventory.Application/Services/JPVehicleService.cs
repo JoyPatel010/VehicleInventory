@@ -111,9 +111,9 @@ namespace VehicleInventory.Application.Services
             return new JPVehicleDto
             {
                 Id = vehicle.Id,
-                VehicleCode = vehicle.VehicleCode,
-                LocationId = vehicle.LocationId,
-                VehicleType = vehicle.VehicleType,
+                VehicleCode = vehicle.VehicleCode.Code,
+                LocationId = vehicle.LocationId.Location,
+                VehicleType = vehicle.VehicleType.TypeName,
                 Status = vehicle.Status
             };
         }
