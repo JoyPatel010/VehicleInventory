@@ -1,6 +1,6 @@
-Vehicle Inventory Microservice
+### Vehicle Inventory Microservice
 
-Assignment #1 – Clean Architecture & DDD 
+### Assignment #1 & #2 – Clean Architecture & DDD 
 
 
 
@@ -46,6 +46,15 @@ LocationId
 VehicleType
 Status
 
+Child Entity
+JPVehicleInventory (child of JPVehicle aggregate)
+Properties-
+Id
+VehicleId (foreign key to JPVehicle)
+Location (JPLocationId Value Object)
+Quantity
+LastUpdated
+
 
 Status Values-
 Available
@@ -77,6 +86,7 @@ GetVehicleById
 GetAllVehicles
 UpdateVehicleStatus
 DeleteVehicle
+AddInventoryRecord
 
 The service makes use of domain behavior methods (e.g., MarkRented()), so that rules do not move out of the Domain layer.
 
@@ -102,6 +112,7 @@ GET /api/v1/vehicles/{id}
 POST /api/v1/vehicles
 PUT /api/v1/vehicles/{id}/status
 DELETE /api/v1/vehicles/{id}
+POST /api/v1/vehicles/{id}/inventory
 
 Swagger is activated, and every enpoint passed the test.
 
@@ -114,6 +125,15 @@ Add-Migration InitialCreate -Project VehicleInventory.Infrastructure -StartupPro
 To Update database-
 Update-Database -Project VehicleInventory.Infrastructure -StartupProject VehicleInventory.WebAPI
 
+Assignment 2 Migration
+A second migration was added to create the VehicleInventories table:
+
+Add-Migration AddVehicleInventoryTable -StartupProject VehicleInventory.WebAPI
+Update-Database -StartupProject VehicleInventory.WebAPI
+
+Tables:
+- dbo.Vehicles – stores aggregate root data
+- dbo.VehicleInventories – stores child entity data, linked via VehicleId foreign key with cascade delete
 
 
 How to Run:

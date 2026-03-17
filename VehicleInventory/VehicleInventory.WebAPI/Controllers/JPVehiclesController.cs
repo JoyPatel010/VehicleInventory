@@ -70,5 +70,22 @@ namespace VehicleInventory.WebAPI.Controllers
             await _service.DeleteVehicleAsync(id);
             return NoContent();
         }
+
+        // POST: api/v1/vehicles/{id}/inventory
+        [HttpPost("{id}/inventory")]
+        public async Task<IActionResult> AddInventoryRecord(Guid id, [FromBody] JPAddInventoryRecordDto dto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var result = await _service.AddInventoryRecordAsync(id, dto);
+
+            if (!result)
+                return NotFound($"Vehicle with ID {id} not found.");
+
+            return CreatedAtAction(nameof(GetById), new { id }, null);
+        }
+
+
     }
 }

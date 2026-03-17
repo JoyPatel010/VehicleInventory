@@ -117,5 +117,13 @@ namespace VehicleInventory.Application.Services
                 Status = vehicle.Status
             };
         }
+
+        public async Task<bool> AddInventoryRecordAsync(Guid id, JPAddInventoryRecordDto dto)
+        {
+            if (dto == null)
+                throw new ArgumentNullException(nameof(dto));
+
+            return await _repository.AddInventoryRecordAsync(id, dto.Location, dto.Quantity);
+        }
     }
 }

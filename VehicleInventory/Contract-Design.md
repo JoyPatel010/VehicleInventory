@@ -1,4 +1,5 @@
-Contract-First API Design
+### Contract-First API Design
+
 Request and response structure was prescribed before deploying the API to make it clear and consistent.
 
 API Versioning Strategy
@@ -79,3 +80,32 @@ Responses:
 
 
 This contract-first style made sure that the entire inputs, output, rule of validation, as well as status codes before implementation were defined.
+
+
+
+### Assignment 2 Updates
+
+Add Inventory Record (New Endpoint)
+
+Endpoint: POST /api/v1/vehicles/{id}/inventory
+
+Request body:
+{
+  "location": "LOT-A",
+  "quantity": 5
+}
+
+Validation rules:
+- id must be a valid existing vehicle GUID
+- location is required (max 100 characters, enforced by JPLocationId Value Object)
+- quantity must be 0 or greater (negative values rejected by domain rule)
+
+Responses:
+- 201 Created – inventory record successfully added
+- 400 Bad Request – invalid input
+- 404 Not Found – vehicle does not exist
+
+--- This endpoint is the ONLY way to create a JPVehicleInventory record.
+External code cannot instantiate JPVehicleInventory directly — it must go
+through JPVehicle.AddInventoryRecord() on the aggregate root. This enforces
+the DDD aggregate boundary.

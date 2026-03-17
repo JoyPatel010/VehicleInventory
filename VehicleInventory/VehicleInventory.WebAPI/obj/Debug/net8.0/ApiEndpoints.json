@@ -59,6 +59,27 @@
   },
   {
     "ContainingType": "VehicleInventory.WebAPI.Controllers.JPVehiclesController",
+    "Method": "AddInventoryRecord",
+    "RelativePath": "api/v1/vehicles/{id}/inventory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "VehicleInventory.Application.DTOs.JPAddInventoryRecordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VehicleInventory.WebAPI.Controllers.JPVehiclesController",
     "Method": "UpdateStatus",
     "RelativePath": "api/v1/vehicles/{id}/status",
     "HttpMethod": "PUT",

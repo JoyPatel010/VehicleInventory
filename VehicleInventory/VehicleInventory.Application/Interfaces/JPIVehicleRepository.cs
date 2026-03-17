@@ -14,5 +14,6 @@ namespace VehicleInventory.Application.Interfaces
         Task<List<JPVehicle>> GetAllAsync();
         Task UpdateAsync(JPVehicle vehicle);
         Task DeleteAsync(JPVehicle vehicle);
+        Task<bool> AddInventoryRecordAsync(Guid vehicleId, string location, int quantity);
     }
 }

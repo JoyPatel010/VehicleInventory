@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 using VehicleInventory.Application.Interfaces;
 using VehicleInventory.Domain.Aggregates.JPVehicle;
+using VehicleInventory.Domain.ValueObjects;
 using VehicleInventory.Infrastructure.Data;
 
 namespace VehicleInventory.Infrastructure.Repositories
@@ -47,6 +48,29 @@ namespace VehicleInventory.Infrastructure.Repositories
         {
             _context.Vehicles.Remove(vehicle);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<bool> AddInventoryRecordAsync(Guid vehicleId, string location, int quantity)
+        {
+            var vehicle = await _context.Vehicles
+                .Include(v => v.InventoryRecords)
+                .FirstOrDefaultAsync(v => v.Id == vehicleId);
+
+            if (vehicle == null)
+                return false;
+
+            var locationObj = new JPLocationId(location);
+
+            vehicle.AddInventoryRecord(locationObj, quantity);
+
+            
+            var newRecord = vehicle.InventoryRecords.Last();
+
+            await _context.VehicleInventories.AddAsync(newRecord);
+
+            await _context.SaveChangesAsync();
+
+            return true;
         }
     }
 }
